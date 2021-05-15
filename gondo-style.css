@@ -1,0 +1,18 @@
+
+    h1, h2, h3, h4, h5, h6{
+      color: #5a3f36;
+    }
+    .text-rose{
+        color: #d70b52;
+    }
+    .card-body ul li,.card-body ul li i{
+      color: #d70b52;
+    }
+    .newsletter{
+      background: linear-gradient(to right, transparent 50%, #d70b52 50%);
+    }
+
+    .nav-item::before{
+      background: #5a3f36;
+    }
+    
