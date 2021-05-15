@@ -42,7 +42,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navigation">
+        <div class="collapse navbar-collapse">
           <ul class="navbar-nav ml-auto text-center" style="background: #d70b52;">
             <li class="nav-item @@home">
               <a class="nav-link" href="index.html">ACCUEIL</a>
