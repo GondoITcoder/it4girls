@@ -70,7 +70,7 @@
               <li class="list-inline-item"><i class="ti-user mr-1 text-color"></i> 25 Inscrits</li>
             </ul>
             <a href="details-cour.phpl">
-              <h4 class="card-title">Developpeur Front-end</h4>
+              <h4 class="card-title">Developpeur ARNAUD</h4>
             </a>
             <p class="card-text mb-4">
               Bien sûr créer son site internet présente de nombreux avantages 
