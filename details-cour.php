@@ -31,6 +31,20 @@
   <link rel="icon" href="images/favicon.png" type="image/x-icon">
   <link href="gondo-style.css" rel="stylesheet">
 
+  <style type="text/css">
+    .text-primary-icon{
+      color: rgb(215, 11, 82);
+    }
+
+    .btn-primary{
+      background-color: rgb(215, 11, 82);
+    }
+
+    .list-styled li::before{
+      background: rgb(215, 11, 82);
+    }
+  </style>
+
 </head>
 
 <body>
@@ -39,7 +53,7 @@
 ?>
 
 <!-- page title -->
-<section class="page-title-section overlay" data-background="images/backgrounds/page-title.jpg">
+<section class="page-title-section overlay" data-background="images/img-essai/bg-parcour-flutter.jpg">
   <div class="container">
     <div class="row">
       <div class="col-md-8">
@@ -62,47 +76,47 @@
     <div class="row">
       <div class="col-12 mb-4">
         <!-- course thumb -->
-        <img src="images/courses/course-single.jpg" class="img-fluid w-100">
+        <img src="images/img-essai/img-parcour-flutter.jpg" class="img-fluid w-100" style="height: 370px">
       </div>
     </div>
     <!-- course info -->
     <div class="row align-items-center mb-5">
       <div class="col-xl-3 order-1 col-sm-6 mb-4 mb-xl-0">
-        <h2>Photography</h2>
+        <h2>Flutter</h2>
       </div>
       <div class="col-xl-6 order-sm-3 order-xl-2 col-12 order-2">
         <ul class="list-inline text-xl-center">
           <li class="list-inline-item mr-4 mb-3 mb-sm-0">
             <div class="d-flex align-items-center">
-              <i class="ti-book text-primary icon-md mr-2"></i>
+              <i class="ti-book text-primary-icon icon-md mr-2"></i>
               <div class="text-left">
-                <h6 class="mb-0">COURSES</h6>
-                <p class="mb-0">06 Month</p>
+                <h6 class="mb-0">COURS</h6>
+                <p class="mb-0">01 Mois</p>
               </div>
             </div>
           </li>
           <li class="list-inline-item mr-4 mb-3 mb-sm-0">
             <div class="d-flex align-items-center">
-              <i class="ti-alarm-clock text-primary icon-md mr-2"></i>
+              <i class="ti-alarm-clock text-primary-icon icon-md mr-2"></i>
               <div class="text-left">
-                <h6 class="mb-0">DURATION</h6>
-                <p class="mb-0">03 Hours</p>
+                <h6 class="mb-0">DUREE</h6>
+                <p class="mb-0">120 Heures</p>
               </div>
             </div>
           </li>
           <li class="list-inline-item mr-4 mb-3 mb-sm-0">
             <div class="d-flex align-items-center">
-              <i class="ti-wallet text-primary icon-md mr-2"></i>
+              <i class="ti-wallet text-primary-icon icon-md mr-2"></i>
               <div class="text-left">
-                <h6 class="mb-0">FEE</h6>
-                <p class="mb-0">From: $699</p>
+                <h6 class="mb-0">PAYANT</h6>
+                <p class="mb-0">Prix: 75 000 fcfa</p>
               </div>
             </div>
           </li>
         </ul>
       </div>
       <div class="col-xl-3 text-sm-right text-left order-sm-2 order-3 order-xl-3 col-sm-6 mb-4 mb-xl-0">
-        <a href="#" class="btn btn-primary">Apply now</a>
+        <a href="#" class="btn btn-primary">S'inscrire Maintenant</a>
       </div>
       <!-- border -->
       <div class="col-12 mt-4 order-4">
@@ -112,7 +126,7 @@
     <!-- course details -->
     <div class="row">
       <div class="col-12 mb-4">
-        <h3>About Course</h3>
+        <h3>Apropos du cours</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
           dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
           commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
@@ -125,7 +139,7 @@
           labore et dolore magnam aliquam quaerat voluptatem.</p>
       </div>
       <div class="col-12 mb-4">
-        <h3 class="mb-3">Requirements</h3>
+        <h3 class="mb-3">Ce que vous apprendrez</h3>
         <div class="col-12 px-0">
           <div class="row">
             <div class="col-md-6">
@@ -148,7 +162,7 @@
         </div>
       </div>
       <div class="col-12 mb-4">
-        <h3 class="mb-3">How to Apply</h3>
+        <h3 class="mb-3">Prérequis</h3>
         <ul class="list-styled">
           <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae obcaecati unde nulla? Lorem, ipsum
             dolor. Lorem, ipsum.</li>
@@ -163,31 +177,27 @@
         </ul>
       </div>
       <div class="col-12 mb-5">
-        <h3>Fees and Funding</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+        <h3>Certification</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
           dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
           commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-          anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-          laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-          consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
-          ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
-          labore et dolore magnam aliquam quaerat voluptatem.</p>
+          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.
+        </p>
       </div>
       <!-- teacher -->
       <div class="col-12">
-        <h5 class="mb-3">Teacher</h5>
+        <h5 class="mb-3">Enseignant</h5>
         <div class="d-flex justify-content-between align-items-center flex-wrap">
           <div class="media mb-2 mb-sm-0">
-            <img class="mr-4 img-fluid" src="images/teacher.jpg" alt="Teacher">
+            <img class="mr-4 img-fluid" src="images/img-essai/formateur-gondo.jpg" alt="Formateur" style="width: 70px;height: 70px;">
             <div class="media-body">
-              <h4 class="mt-0">Sam Somrat</h4>
-              Photographer
+              <h4 class="mt-0">Gondo Eric</h4>
+              Developper d'application
             </div>
           </div>
           <div class="social-link">
-            <h6 class="d-none d-sm-block">Social Link</h6>
+            <h6 class="d-none d-sm-block">Liens Réseaux Sociaux</h6>
             <ul class="list-inline">
               <li class="list-inline-item"><a class="d-inline-block text-light p-1" href="#"><i class="ti-facebook"></i></a></li>
               <li class="list-inline-item"><a class="d-inline-block text-light p-1" href="#"><i class="ti-twitter-alt"></i></a></li>
@@ -208,168 +218,85 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2 class="section-title">Related Course</h2>
+        <h2 class="section-title">Les parcours populaires</h2>
       </div>
     </div>
     <div class="row justify-content-center">
-      <!-- course item -->
+      <!-- cours populaire 1 -->
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card p-0 border-primary rounded-0 hover-shadow">
-          <img class="card-img-top rounded-0" src="images/courses/course-1.jpg" alt="course thumb">
+          <a href="parcour-cour.html">
+            <img class="card-img-top rounded-0" src="images/img-essai/img-parcour-infographe.jpg" alt="course thumb" style="width: 328px;height: 290px;">
+          </a>
           <div class="card-body">
             <ul class="list-inline mb-2">
-              <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>02-14-2018</li>
-              <li class="list-inline-item"><a class="text-color" href="#">Humanities</a></li>
+              <li class="list-inline-item"><i class="ti-user mr-1 text-color"></i> 25 Inscrits</li>
             </ul>
             <a href="course-single.html">
-              <h4 class="card-title">Photography</h4>
+              <h4 class="card-title">Infographe</h4>
             </a>
-            <p class="card-text mb-4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna.</p>
-            <a href="course-single.html" class="btn btn-primary btn-sm">Apply now</a>
+            <p class="card-text mb-4">
+              L’infographiste a pour mission de réaliser des images 
+              et des graphismes en deux ou trois dimensions pour un site internet ou une édition papier de supports de ...
+            </p>
+            <a href="course-single.html" class="btn btn-primary btn-sm" style="background-color: #d70b52;">Commencer</a>
           </div>
         </div>
       </div>
-      <!-- course item -->
+
+      <!-- cours populaire 2 -->
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card p-0 border-primary rounded-0 hover-shadow">
-          <img class="card-img-top rounded-0" src="images/courses/course-2.jpg" alt="course thumb">
+          <a href="parcour-cour.html">
+            <img class="card-img-top rounded-0" src="images/img-essai/img-parcour-back-end.jpg" alt="course thumb" style="width: 328px;height: 290px;">
+          </a>
           <div class="card-body">
             <ul class="list-inline mb-2">
-              <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>02-14-2018</li>
-              <li class="list-inline-item"><a class="text-color" href="#">Humanities</a></li>
+              <li class="list-inline-item"><i class="ti-user mr-1 text-color"></i> 25 Inscrits</li>
             </ul>
             <a href="course-single.html">
-              <h4 class="card-title">Programming</h4>
+              <h4 class="card-title">Developpeur Back-end</h4>
             </a>
-            <p class="card-text mb-4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna.</p>
-            <a href="course-single.html" class="btn btn-primary btn-sm">Apply now</a>
+            <p class="card-text mb-4">
+              Bien sûr créer son site internet présente de nombreux avantages 
+              mais pour en profiter encore faut il savoir comment créer un site internet soi même...
+            </p>
+            <a href="course-single.html" class="btn btn-primary btn-sm" style="background-color: #d70b52;">Commencer</a>
           </div>
         </div>
       </div>
-      <!-- course item -->
+
+      <!-- cours populaire 3 -->
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card p-0 border-primary rounded-0 hover-shadow">
-          <img class="card-img-top rounded-0" src="images/courses/course-3.jpg" alt="course thumb">
+          <a href="parcour-cour.html">
+            <img class="card-img-top rounded-0" src="images/img-essai/img-parcour-office.gif" alt="course thumb" style="width: 328px;height: 290px;">
+          </a>
           <div class="card-body">
             <ul class="list-inline mb-2">
-              <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>02-14-2018</li>
-              <li class="list-inline-item"><a class="text-color" href="#">Humanities</a></li>
+              <li class="list-inline-item"><i class="ti-user mr-1 text-color"></i> 25 Inscrits</li>
             </ul>
             <a href="course-single.html">
-              <h4 class="card-title">Lifestyle Archives</h4>
+              <h4 class="card-title">Bureautique (Pack Complet)</h4>
             </a>
-            <p class="card-text mb-4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna.</p>
-            <a href="course-single.html" class="btn btn-primary btn-sm">Apply now</a>
+            <p class="card-text mb-4">
+              Bien sûr créer son site internet présente de nombreux avantages 
+              mais pour en profiter encore faut il savoir comment créer un site internet soi même.
+            </p>
+            <a href="course-single.html" class="btn btn-primary btn-sm" style="background-color: #d70b52;">Commencer</a>
           </div>
         </div>
       </div>
+
     </div>
   </div>
 </section>
 <!-- /related course -->
 
 <!-- footer -->
-<footer>
-  <!-- newsletter -->
-  <div class="newsletter">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-9 ml-auto bg-primary py-5 newsletter-block">
-          <h3 class="text-white">Subscribe Now</h3>
-          <form action="#">
-            <div class="input-wrapper">
-              <input type="email" class="form-control border-0" id="newsletter" name="newsletter" placeholder="Enter Your Email...">
-              <button type="submit" value="send" class="btn btn-primary">Join</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- footer content -->
-  <div class="footer bg-footer section border-bottom">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
-          <!-- logo -->
-          <a class="logo-footer" href="index.html"><img class="img-fluid mb-4" src="images/logo.png" alt="logo"></a>
-          <ul class="list-unstyled">
-            <li class="mb-2">23621 15 Mile Rd #C104, Clinton MI, 48035, New York, USA</li>
-            <li class="mb-2">+1 (2) 345 6789</li>
-            <li class="mb-2">+1 (2) 345 6789</li>
-            <li class="mb-2">contact@yourdomain.com</li>
-          </ul>
-        </div>
-        <!-- company -->
-        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
-          <h4 class="text-white mb-5">COMPANY</h4>
-          <ul class="list-unstyled">
-            <li class="mb-3"><a class="text-color" href="about.html">About Us</a></li>
-            <li class="mb-3"><a class="text-color" href="teacher.html">Our Teacher</a></li>
-            <li class="mb-3"><a class="text-color" href="contact.html">Contact</a></li>
-            <li class="mb-3"><a class="text-color" href="blog.html">Blog</a></li>
-          </ul>
-        </div>
-        <!-- links -->
-        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
-          <h4 class="text-white mb-5">LINKS</h4>
-          <ul class="list-unstyled">
-            <li class="mb-3"><a class="text-color" href="courses.html">Courses</a></li>
-            <li class="mb-3"><a class="text-color" href="event.html">Events</a></li>
-            <li class="mb-3"><a class="text-color" href="gallary.html">Gallary</a></li>
-            <li class="mb-3"><a class="text-color" href="faqs.html">FAQs</a></li>
-          </ul>
-        </div>
-        <!-- support -->
-        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
-          <h4 class="text-white mb-5">SUPPORT</h4>
-          <ul class="list-unstyled">
-            <li class="mb-3"><a class="text-color" href="#">Forums</a></li>
-            <li class="mb-3"><a class="text-color" href="#">Documentation</a></li>
-            <li class="mb-3"><a class="text-color" href="#">Language</a></li>
-            <li class="mb-3"><a class="text-color" href="#">Release Status</a></li>
-          </ul>
-        </div>
-        <!-- support -->
-        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
-          <h4 class="text-white mb-5">RECOMMEND</h4>
-          <ul class="list-unstyled">
-            <li class="mb-3"><a class="text-color" href="#">WordPress</a></li>
-            <li class="mb-3"><a class="text-color" href="#">LearnPress</a></li>
-            <li class="mb-3"><a class="text-color" href="#">WooCommerce</a></li>
-            <li class="mb-3"><a class="text-color" href="#">bbPress</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- copyright -->
-  <div class="copyright py-4 bg-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-7 text-sm-left text-center">
-          <p class="mb-0">Copyright
-            <script>
-              var CurrentYear = new Date().getFullYear()
-              document.write(CurrentYear)
-            </script> 
-            © themefisher</p>
-        </div>
-        <div class="col-sm-5 text-sm-right text-center">
-          <ul class="list-inline">
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-facebook text-primary"></i></a></li>
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-twitter-alt text-primary"></i></a></li>
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-linkedin text-primary"></i></a></li>
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-instagram text-primary"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
+<?php
+include "footer.php";
+?>
 <!-- /footer -->
 
 <!-- jQuery -->

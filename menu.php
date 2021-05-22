@@ -36,7 +36,7 @@
   <div class="navigation w-100" style="background: #d70b52;">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-dark p-0">
-        <a class="navbar-brand" href="index.html"><img src="images/it4girl.png" alt="logo" style="height: 80px;width: 120px;border-radius: 100px;"></a>
+        <a class="navbar-brand" href="index.html"><img src="images/it4girl.jpg" alt="logo" style="height: 80px;width: 120px;border-radius: 100px;"></a>
         <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
           aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>

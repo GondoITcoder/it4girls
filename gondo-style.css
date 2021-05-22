@@ -15,4 +15,8 @@
     .nav-item::before{
       background: #5a3f36;
     }
+
+    .text-primary-icon{
+      color: rgb(215, 11, 82);
+    }
     

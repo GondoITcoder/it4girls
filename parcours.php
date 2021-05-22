@@ -69,14 +69,14 @@
             <ul class="list-inline mb-2">
               <li class="list-inline-item"><i class="ti-user mr-1 text-color"></i> 25 Inscrits</li>
             </ul>
-            <a href="course-single.html">
+            <a href="details-cour.phpl">
               <h4 class="card-title">Developpeur Front-end</h4>
             </a>
             <p class="card-text mb-4">
               Bien sûr créer son site internet présente de nombreux avantages 
               mais pour en profiter encore faut il savoir comment créer un site internet soi même...
             </p>
-            <a href="course-single.html" class="btn btn-primary btn-sm" style="background-color: #d70b52;">Commencer</a>
+            <a href="details-cour.php" class="btn btn-primary btn-sm" style="background-color: #d70b52;">Commencer</a>
           </div>
         </div>
       </div>
@@ -84,21 +84,21 @@
       <!-- cours 2 -->
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card p-0 border-primary rounded-0 hover-shadow">
-          <a href="parcour-cour.html">
+          <a href="details-cour.php">
             <img class="card-img-top rounded-0" src="images/img-essai/img-parcour-flutter.jpg" alt="course thumb" style="width: 328px;height: 290px;">
           </a>
           <div class="card-body">
             <ul class="list-inline mb-2">
               <li class="list-inline-item"><i class="ti-user mr-1 text-color"></i> 25 Inscrits</li>
             </ul>
-            <a href="course-single.html">
+            <a href="details-cour.php">
               <h4 class="card-title">Developpeur Flutter</h4>
             </a>
             <p class="card-text mb-4">
               Flutter est un framework développer par GOOGLE 
               dont la première version est sortir en 2017. Il est basé sur du dart qui est un langage...
             </p>
-            <a href="course-single.html" class="btn btn-primary btn-sm" style="background-color: #d70b52;">Commencer</a>
+            <a href="details-cour.php" class="btn btn-primary btn-sm" style="background-color: #d70b52;">Commencer</a>
           </div>
         </div>
       </div>
@@ -106,21 +106,21 @@
       <!-- cours 3 -->
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card p-0 border-primary rounded-0 hover-shadow">
-          <a href="parcour-cour.html">
+          <a href="details-cour.php">
             <img class="card-img-top rounded-0" src="images/img-essai/img-parcour-infographe.jpg" alt="course thumb" style="width: 328px;height: 290px;">
           </a>
           <div class="card-body">
             <ul class="list-inline mb-2">
               <li class="list-inline-item"><i class="ti-user mr-1 text-color"></i> 25 Inscrits</li>
             </ul>
-            <a href="course-single.html">
+            <a href="details-cour.php">
               <h4 class="card-title">Infographe</h4>
             </a>
             <p class="card-text mb-4">
               L’infographiste a pour mission de réaliser des images 
               et des graphismes en deux ou trois dimensions pour un site internet ou une édition papier de supports de ...
             </p>
-            <a href="course-single.html" class="btn btn-primary btn-sm" style="background-color: #d70b52;">Commencer</a>
+            <a href="details-cour.php" class="btn btn-primary btn-sm" style="background-color: #d70b52;">Commencer</a>
           </div>
         </div>
       </div>
@@ -132,21 +132,21 @@
       <!-- cours 1 -->
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card p-0 border-primary rounded-0 hover-shadow">
-          <a href="parcour-cour.html">
+          <a href="details-cour.php">
             <img class="card-img-top rounded-0" src="images/img-essai/img-parcour-back-end.jpg" alt="course thumb" style="width: 328px;height: 290px;">
           </a>
           <div class="card-body">
             <ul class="list-inline mb-2">
               <li class="list-inline-item"><i class="ti-user mr-1 text-color"></i> 25 Inscrits</li>
             </ul>
-            <a href="course-single.html">
+            <a href="details-cour.php">
               <h4 class="card-title">Developpeur Back-end</h4>
             </a>
             <p class="card-text mb-4">
               Bien sûr créer son site internet présente de nombreux avantages 
               mais pour en profiter encore faut il savoir comment créer un site internet soi même...
             </p>
-            <a href="course-single.html" class="btn btn-primary btn-sm" style="background-color: #d70b52;">Commencer</a>
+            <a href="details-cour.php" class="btn btn-primary btn-sm" style="background-color: #d70b52;">Commencer</a>
           </div>
         </div>
       </div>
@@ -154,21 +154,21 @@
       <!-- cours 2 -->
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card p-0 border-primary rounded-0 hover-shadow">
-          <a href="parcour-cour.html">
+          <a href="details-cour.php">
             <img class="card-img-top rounded-0" src="images/img-essai/img-parcour-robotique.jpg" alt="course thumb" style="width: 328px;height: 290px;">
           </a>
           <div class="card-body">
             <ul class="list-inline mb-2">
               <li class="list-inline-item"><i class="ti-user mr-1 text-color"></i> 25 Inscrits</li>
             </ul>
-            <a href="course-single.html">
+            <a href="details-cour.php">
               <h4 class="card-title">Robotique</h4>
             </a>
             <p class="card-text mb-4">
               Flutter est un framework développer par GOOGLE 
               dont la première version est sortir en 2017. Il est basé sur du dart qui est un langage...
             </p>
-            <a href="course-single.html" class="btn btn-primary btn-sm" style="background-color: #d70b52;">Commencer</a>
+            <a href="details-cour.php" class="btn btn-primary btn-sm" style="background-color: #d70b52;">Commencer</a>
           </div>
         </div>
       </div>
@@ -176,21 +176,21 @@
       <!-- cours 3 -->
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card p-0 border-primary rounded-0 hover-shadow">
-          <a href="parcour-cour.html">
+          <a href="details-cour.php">
             <img class="card-img-top rounded-0" src="images/img-essai/img-parcour-office.gif" alt="course thumb" style="width: 328px;height: 290px;">
           </a>
           <div class="card-body">
             <ul class="list-inline mb-2">
               <li class="list-inline-item"><i class="ti-user mr-1 text-color"></i> 25 Inscrits</li>
             </ul>
-            <a href="course-single.html">
+            <a href="details-cour.phpl">
               <h4 class="card-title">Bureautique (Pack Complet)</h4>
             </a>
             <p class="card-text mb-4">
               Bien sûr créer son site internet présente de nombreux avantages 
               mais pour en profiter encore faut il savoir comment créer un site internet soi même.
             </p>
-            <a href="course-single.html" class="btn btn-primary btn-sm" style="background-color: #d70b52;">Commencer</a>
+            <a href="details-cour.php" class="btn btn-primary btn-sm" style="background-color: #d70b52;">Commencer</a>
           </div>
         </div>
       </div>
